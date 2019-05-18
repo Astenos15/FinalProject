@@ -1,0 +1,68 @@
+a {
+	color: black;
+}
+#navitem{
+	width: 200px;
+	margin-left: 10px; 
+}
+.nav-link{
+	color: black;
+}
+.headtext {
+	margin-top: 40px;
+	margin-right: 100px;
+	justify-content: center;
+	align-content: center;
+}
+body {
+	color: black;
+}
+#menuimg {
+	border:1px solid black;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 10%;
+}
+.form-group{
+	width: 200px;
+	justify-content: center;
+}
+.card-img-top2 {
+	height: 150px;
+}
+.bdaycard{
+	margin-left: 75px;
+	width: 290px;
+}
+.card-body {
+	height: 75px;
+	border:none;
+}
+.card-text{
+	margin-top: 10px;
+	font-family: 'Pacifico', cursive;
+	color:black;
+}
+li	{
+	font-family: 'Pacifico', cursive;
+}
+p {
+	font-family: 'Pacifico', cursive;
+}
+.recipe {
+	margin-right: 100px;
+}
+.jumbotron {
+	margin-left: 490px;
+	background: none;
+	height: 250px;
+	font-family: 'Pacifico', cursive;
+
+}
+
+#carousel {
+
+}
+.carousel-inner {
+	height: 300px;
+	width: 300px;
+}
