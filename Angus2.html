@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>AngusBurger</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+
 </head>
-<body background="img\beige.jpg">
-<!-- nav -->
+<body background="">
 <div class="container">
 	<div class="row justify-content-between">
 			<ul class="nav nav-pills d-flex justify-content-between mt-5">
-				<div id="navitem">
-					  <li class="nav-item">
+				<div id="navitem"  >
+					   <li class="nav-item">
 					    <a id="navi" class="nav-link active bg-dark" href="home.html">Home</a>
 					  </li>
 					  	
@@ -23,7 +24,7 @@
 					  <li class="nav-item">
 					    <a id="navi" class="nav-link" href="home.html">Recipes</a>
 					  </li>
-						<!-- Contact us-->
+					  <!-- Contact us-->
 						<div class="btn-group">
 						  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						     Contact Us
@@ -39,62 +40,56 @@
 			           <input id="search" type="text" value="" placeholder="Seach" class="form-control" />
 			           </div>
 					<!-- search button -->	
-			</div>
+
+				</div>
 			</ul>
-			<div class="row mt-5">
-				<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="img\caro5.jpg" alt="Card image cap" width="150px" height="300px">
-			  <div class="card-body">
-			    <a id="label" href="GrilledLamb2.html">Grilled Lamb Chops</a>
-			  </div>
+			<!-- nav end -->
+			<div>
+				<div class="row mt-5">
+					<div class="recipe">
+					<img id="menuimg" src="img\pro1.jpg" height="300px" width="600px">
+					<p id="menudesc" class="card-text"><h5><p>Grilled Angus Burger patty grilled to perfection.</p></h5>
+					</div>
+				</div>
 			</div>
-			<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="img\pro4.jpg" alt="Card image cap" width="150px"  height="300px">
-			  <div class="card-body">
-			    <a id="label"href="Ancho.html">Ancho-Chile Chicken</a>
-			  </div>
-			</div>
-			<div class="card" style="width: 18rem;">
-			  <img class="card-img-top" src="img\pro3.jpg" alt="Card image cap" width="150px"  height="300px">
-			  <div class="card-body">
-			    <a id="label"href="Margarita2.html">Grilled Margarita Chicken</a>
-			  </div>
-			</div>
-		   </div>
-		</div>		
-	<!-- ending of nav --> 
-</div>		
+	</div>
+</div>
+<div id="container">
+	<div class="row">
+		<iframe width="420" height="345" src="https://www.youtube.com/embed/W0jVkPYQjEo">
+		</iframe>
+		<div class="jumbotron jumbotron-fluid col-sm-12 col-lg-5">
+		  <div id="ingredients" class="container">
+		    <h4>Ingredients</h4>
+		    <ul id="buy">
+		    		<li>1 1/2 pounds Certified Angus Beef</li>
+			   		<li>6 slices Cheddar Cheese</li>
+			   		<li>3 cloves fresh garlic,finely chopped(or substitute 1 teaspoon garlic powder)</li>
+			   		<li>1 teaspoon Worcestershire sauce</li>
+			   		<li>1/2 teaspoon coarse kosher salt</li>
+			   		<li>1/2 teaspoon freshly ground black pepper</li>
+			   		<li>Canola cooking spray</li>
+			   		<li>4 buns</li>
+		    </ul>
+		  </div>
+	</div>	
+</div>	
 <div class="row">
-	<div class="bdaycard">
-		<div class="card" style="width: 18rem;">
-		  <img src="img\bday.jpg" class="card-img-top2" alt="...">
-		  <div class="card-body2">
-		    <p class="card-text">Here are some recipes that is good to enjoy with yor family.</p>
-	  	  </div>
-	    </div>
-	</div>   
-	<!-- 2nd Cards -->
-		<div class="row ml-5" id="card2">
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img\skirt.jpg" alt="Card image cap" width="219px" height="300px">
-				  <div class="card-body">
-				  <a id="label" href="Skirt2.html">Grilled Skirt Steak</a>
-				  </div>
-				</div>
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img\pro1.jpg" alt="Card image cap" width="219px"  height="300px">
-				  <div class="card-body">
-				    <a id="label" href="Angus2.html">Grilled Angus Beef Burger</a>
-				  </div>
-				</div>
-				<div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img\pro3.jpg" alt="Card image cap" width="219px"  height="300px">
-				  <div class="card-body">
-				    <a id="label" href="Ribs2.html">Barbecue Ribs</a>
-				  </div>
-				</div>	
-		</div>
-	<!-- 2nd cards -->
+	<div>
+		<img id="blogimg" src="img\blog5.png">	
+	</div>	
+	<div class="jumbotron jumbotron-fluid col-sm-12 col-lg-5 mt-5">
+		<div id="ingredients2">
+			    <h4>How To Make It:</h4>
+			     <h5>Step 1</h5>
+				<p>Cut each cheese slice evenly into 4 squares; arrange in 4 stacks with 6 slices each.</p>
+				<h5>Step 2</h5>
+				<p>In a large mixing bowl combine ground beef, garlic, Worcestershire, salt and pepper; mix by hand.</p>
+				<h5>Step 3</h5>    
+				<p>Form beef mixture into 8 thin patties on a large sheet pan. With your thumb, press an indented well in the center of 4 patties and put the portioned cheese in the wells. Encase the cheese with the remaining 4 patties, hand forming your burger to a uniform shape with sealed edges. Refrigerate at least 30 minutes before grilling.</p>
+				<h5>Step 4</h5>
+				<p>Spray burgers with a light coat of cooking spray. Grill or pan sear over high heat 3 minutes per side. Transfer to cool side of grill or 375°F oven to finish cooking to an internal doneness of 160°F (5 to 8 minutes). Remove from grill and rest at least 3 minutes for cheese to set.</p>
+	</div>	
 </div>
 
 
@@ -115,16 +110,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

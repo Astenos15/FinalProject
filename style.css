@@ -1,9 +1,39 @@
-a {
+
+#navitem{
+	margin-top: 50px;
+	width: 205px;
+	height: 220px;
+	margin-left: 10px;
+	box-shadow: 10px 10px 5px grey;
+	background-color:white;
+}
+i {
+	color: blue;
+}
+a{
+	font-family: 'Pacifico', cursive;
+}
+button {
+font-family: 'Pacifico', cursive;
+}
+#search{
+	margin-top: 10px;
+	margin-left: 2px;
+}
+#navi:hover{
+	background-color: gray;
+	border: none;
+   color: white;
+   margin: 4px 2px;
+   opacity: 0.6;
+   transition: 0.3s;
+}
+#label{
 	color: black;
 }
-#navitem{
-	width: 200px;
-	margin-left: 10px; 
+.card-body {
+	height: 55px;
+	border:none;
 }
 .nav-link{
 	color: black;
@@ -16,11 +46,63 @@ a {
 }
 body {
 	color: black;
+    background: url(img/beige.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#ingredients{
+	overflow: hidden;
+	border: 1px solid black;
+	border-radius: 50px;
+	box-shadow: 10px 10px 5px grey;
+	background-color:white;
+}
+#ingredients2{
+	overflow: hidden;
+	border: 1px solid black;
+	border-radius: 50px;
+	box-shadow: 10px 10px 5px grey;
+	background-color:white;
+}
+
+h4 {
+	align-items: center;
+	justify-content: center;
+	margin-left: 120px;
+}
+#menudesc{
+	margin-left: 100px;
+}
+#chef{
+	margin-left: 50px;
+}
+h5 {
+	margin-left: 10px;
+}
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color:white;
 }
 #menuimg {
+	margin-top: 50px;
 	border:1px solid black;
 	box-shadow: 10px 10px 5px grey;
 	border-radius: 10%;
+}
+#menuimg2 {
+	margin-top: 50px;
+	margin-left: 100px;
+	border:1px solid black;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 10%;
+}
+iframe{
+	margin-left: 100px;
+	margin-top: 50px;
+	box-shadow: 10px 10px 5px grey
 }
 .form-group{
 	width: 200px;
@@ -33,17 +115,16 @@ body {
 	margin-left: 75px;
 	width: 290px;
 }
-.card-body {
-	height: 75px;
-	border:none;
-}
-.card-text{
-	margin-top: 10px;
-	font-family: 'Pacifico', cursive;
-	color:black;
-}
 li	{
 	font-family: 'Pacifico', cursive;
+	align-items: center;
+	justify-content: center;
+}
+#skirtlist{
+	margin-left: 20px;
+}
+#buy {
+	margin-left: 100px;	
 }
 p {
 	font-family: 'Pacifico', cursive;
@@ -52,17 +133,16 @@ p {
 	margin-right: 100px;
 }
 .jumbotron {
-	margin-left: 490px;
+	margin-left: 100px;
 	background: none;
 	height: 250px;
 	font-family: 'Pacifico', cursive;
-
 }
 
-#carousel {
-
-}
-.carousel-inner {
-	height: 300px;
-	width: 300px;
+#blogimg{
+	margin-left: 100px;
+	margin-top: 120px;
+	height: 500px;
+	width:500px;
+	box-shadow: 10px 10px 5px grey	
 }
